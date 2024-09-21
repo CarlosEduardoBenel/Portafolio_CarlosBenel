@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Carlos Benel - Portafolio</title>
+    <script src="../JS/logica.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="#sobre-mi"><p>Sobre mi</p></a></li>
+            <li><a href="#contactos"><p>Contactos</p></a></li>
+            <li><a href="#social"><p>Social</p></a></li>
+            <li><a href="#proyectos"><p>Proyectos</p></a></li>
+            <li><a href="#habilidades"><p>Habilidades</p></a></li>
+        </ul>
+    </div>
+    <div class="body" id="body">
+        <!-- Colocar todo sobre mi-->
+        <div class="sobre-mi" id="sobre-mi">
+            <p class="perfil">
+                <i class='bx bx-code-alt' ></i>
+                <span>Carlos Benel</span>
+            </p>
+            <p>
+                Tecnico
+                <span class="green"> Desarrollador de Software. </span>
+                <span class="bluesky"> De Perú, Distrito Mi Perú. </span>
+                Apasionado por la creatividad.
+            </p>
+        </div>
+
+        <!-- Boton disponibilidad de trabajo -->
+        <div class="boton-green">
+            <a href="">
+                <span onclick="">
+                    Disponible para trabajar
+                </span>
+            </a>
+        </div>
+
+        <!-- boton de redes sociales y contactos -->
+        <div class="boton-contacto" id="contacto">
+            <a href="https://github.com/CarlosEduardoBenel" target="_blank" title="Github">
+                <i class='bx bxl-github' ></i>
+                <span>Github</span>
+            </a>
+            <a href="https://linkedin.com/in/carlos-benel-128611289" target="_blank" title="LinkedIn">
+                <i class='bx bxl-linkedin-square' ></i> 
+                <span>LinkedIn</span>
+            </a>
+            <a href="#" id="copyEmail" title="Copiar correo">
+                <i class='bx bx-envelope'></i> benelcarloseduardo@gmail.com
+            </a>
+            <a href="../PDF/CarlosBenelCV.pdf" title="PDF Descarga" target="_blank">
+                <i class='bx bxs-file-pdf'></i>PDF
+            </a>
+            <div id="copyFeedback" class="feedback-message">¡Copiado!</div>
+        </div>
+
+        <!-- Colocar mis habilidades de programacion -->
+        <div class="habilidades">
+
+            <h2><i class='bx bx-brain'></i> Habilidades</h2>
+
+            <div class="box-habilidades">
+                <div class="clasificacion">
+                    <div class="habilidad">
+                        <i class='bx bxl-java' ></i><span>Java</span>
+                    </div>
+                    <div class="habilidad">
+                        <i class='bx bxl-javascript' ></i><span>JavaScript</span>
+                    </div>
+                    <div class="habilidad">
+                        <i class='bx bxl-html5' ></i><span>Html</span>
+                    </div>
+                    <div class="habilidad">
+                        <i class='bx bxl-css3' ></i><span>CSS</span>
+                    </div>
+                </div>
+                <div class="clasificacion">
+                    <div class="habilidad">
+                        <i class='bx bxl-php'></i><span>PHP</span>
+                    </div>
+                    <div class="habilidad">
+                        <i class='bx bx-server' ></i><span>SQL Server</span>
+                    </div>
+                    <div class="habilidad">
+                        <i class='bx bxl-git' ></i><span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Colocar mis proyectos mas destacables -->
+        <div class="proyectos" id="proyectos">
+            <h2>&#9733; Proyectos</h2>
+
+            <div class="proyectos-contenido">
+                <img src="../IMG/Proyecto1.PNG" alt="Imagen del proyecto">
+                <div class="contenido">
+                    <span class="titulo"><b>Landing Page Aymuray Safety</b></span>
+                    <span>En este proyecto generado con JavaScript, Html y CSS,
+                        creaba la pagina de presentacion de la empresa y sus productos
+                        los cuales estarian en una base de datos en SQL Server.
+                    </span>
+                    <div class="links">
+                        <a href="https://github.com/CarlosEduardoBenel/AymuraySafetyJS.git" target="_blank"><i class='bx bxl-github' ></i>Codigo</a>
+                        <a href="https://aymuray-safety-js.vercel.app" target="_blank"><i class='bx bx-link'></i>Demo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Linea de estudios -->
+         <div class="estudios">
+            <h2><i class='bx bx-book-bookmark' ></i>Educación</h2>
+
+            <div class="rama-estudios">
+                <ul>
+                    <li>
+                        <div class="primer-cuadro">
+                            <h3>Desarollo de Software</h3>
+                            <h4>Senati</h4>
+                            <span>2023</span>
+                        </div>
+                        <div class="segundo-cuadro">
+                            <span>Realize una carrera tecnica en Desarrollo de Software de 3 años
+                                donde aprendi patron de diseño, metodologias agiles, y diferentes
+                                lenguajes de programación entre ellos PHP, JAVA, C#, además 
+                                de la creacion de base de datos en MySQL y SQL Server.
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="primer-cuadro">
+                            <h3>HTML5 y CSS3</h3>
+                            <h4>Udemy</h4>
+                            <span>2022</span>
+                        </div>
+                        <div class="segundo-cuadro">
+                            <span>
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="primer-cuadro">
+                            <h3>Complete JS BootCamp | JavaScript Programing</h3>
+                            <h4>Udemy</h4>
+                            <span>2022</span>
+                        </div>
+                        <div class="segundo-cuadro">
+                            <span>
+                            </span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+         </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">© 2024 Carlos Benel. Casi todos los derechos reservados</p>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#body">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
